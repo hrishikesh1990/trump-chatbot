@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chatbot</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <div style='padding-top: 30px'></div>
+    <%= yield %>
+  </body>
+
+  <footer>
+    Made with ❤️ by <a href='https://github.com/baileytalks'>@baileytalks</a>  –  Find the admin area => <a href='/admin'>here</a>
+  </footer>
+</html>
